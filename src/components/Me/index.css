@@ -1,0 +1,228 @@
+.homePage {
+  background: url("../../assets/home.png") no-repeat center center;
+  background-size: 100% 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  -webkit-animation: homePageAnimation 1s linear;
+           animation: homePageAnimation 1s linear;
+}
+@-webkit-keyframes homePageAnimation{
+  0%{
+    opacity:0;
+    -webkit-transform:translateY(2000px)
+  }
+  100%{
+    -webkit-transform:translateY(0)
+  }
+}
+@keyframes homePageAnimation{
+  0%{
+    opacity:0;
+    transform:translateY(2000px)
+  }
+  100%{
+    transform:translateY(0)
+  }
+}
+/*左上角*/
+.homePagelt {
+  display: none;
+}
+.homePageltAni {
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: -35px;
+  -webkit-animation: homePageLt 2s linear;
+  animation: homePageLt 2s linear;
+}
+@-webkit-keyframes homePageLt{
+  0%{
+    opacity:0;
+    transform:translateY(-116px);
+    /*transform:translateX(-116px);*/
+  }
+  100%{
+    transform:translateY(0);
+    /*transform:translateX(0)*/
+  }
+}
+@keyframes homePageLt{
+  0%{
+    opacity:0;
+    transform:translateY(-116px);
+    /*transform:translateX(-116px);*/
+  }
+  100%{
+    transform:translateY(0);
+    /*transform:translateX(0)*/
+  }
+}
+/*齿轮*/
+.homePagerb {
+  display: none;
+}
+.homePagerbAni {
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  -webkit-animation: homePageRb 2s linear;
+  animation: homePageRb 2s linear;
+}
+@-webkit-keyframes homePageRb{
+  0%{
+    -webkit-transform-origin:center center;
+    -webkit-transform:rotate(0);
+    opacity:0
+  }
+  100%{
+    -webkit-transform-origin:center center;
+    -webkit-transform:rotate(1080deg);
+    opacity:1
+  }
+}
+@keyframes homePageRb{
+  0%{
+    transform-origin:center center;
+    transform:rotate(0);
+    opacity:0
+  }
+  100%{
+    transform-origin:center center;
+    transform:rotate(1080deg);
+    opacity:1
+  }
+}
+/*名字*/
+.homePagemayname {
+  display: none;
+}
+.homePagemynameAni {
+  display: block;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: -104px;
+  -webkit-animation: homePageMyname 2s linear;
+  animation: homePageMyname 2s linear;
+}
+@-webkit-keyframes homePageMyname{
+  0%{
+    opacity:0;
+    -webkit-transform:translateX(2000px)
+  }
+  100%{
+    -webkit-transform:translateX(0)
+  }
+}
+@keyframes homePageMyname{
+  0%{
+    opacity:0;
+    transform:translateX(2000px)
+  }
+  100%{
+    transform:translateX(0)
+  }
+}
+
+/*年龄*/
+.homePagemayage {
+  display: none;
+}
+.homePagemyageAni {
+  display: block;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  margin-left: -104px;
+  -webkit-animation: homePageMyage 2.2s linear;
+  animation: homePageMyage 2.2s linear;
+}
+@-webkit-keyframes homePageMyage{
+  0%{
+    opacity:0;
+    -webkit-transform:translateX(2000px)
+  }
+  100%{
+    -webkit-transform:translateX(0)
+  }
+}
+@keyframes homePageMyage{
+  0%{
+    opacity:0;
+    transform:translateX(2000px)
+  }
+  100%{
+    transform:translateX(0)
+  }
+}
+
+
+/*性别*/
+.homePagemaysex {
+  display: none;
+}
+.homePagemysexAni {
+  display: block;
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  margin-left: -104px;
+  -webkit-animation: homePageMysex 2.4s linear;
+  animation: homePageMysex 2.4s linear;
+}
+@-webkit-keyframes homePageMysex{
+  0%{
+    opacity:0;
+    -webkit-transform:translateX(2200px)
+  }
+  100%{
+    -webkit-transform:translateX(0)
+  }
+}
+@keyframes homePageMysex{
+  0%{
+    opacity:0;
+    transform:translateX(2000px)
+  }
+  100%{
+    transform:translateX(0)
+  }
+}
+
+/*word*/
+.homePagemayword {
+  display: none;
+}
+.homePagemywordAni {
+  display: block;
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  margin-left: -104px;
+  -webkit-animation: homePageMysex 2.4s linear;
+  animation: homePageMysex 2.4s linear;
+}
+@-webkit-keyframes homePageMysex{
+  0%{
+    opacity:0;
+    -webkit-transform:translateX(2200px)
+  }
+  100%{
+    -webkit-transform:translateX(0)
+  }
+}
+@keyframes homePageMysex{
+  0%{
+    opacity:0;
+    transform:translateX(2000px)
+  }
+  100%{
+    transform:translateX(0)
+  }
+}
+
+
